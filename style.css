@@ -15,13 +15,13 @@
 /** box1 **/
 .nav-logo {
     height: 50px;
-    width: 100px;
+    width: 150px;
 }
 
 .logo {
-    background-image: url(#);
+    background-image: url(Amazon-logo.png);
     height: 50px;
-    width: 100px;
+    width: 150px;
     background-size: cover;
 }
 
@@ -36,6 +36,7 @@
 .add-frst {
     color: #cccccc;
     font-size: 1rem;
+    margin-left: 20px;
 }
 .add-second {
     font-size: 1rem;
@@ -47,9 +48,9 @@
 /** box3  **/
 .nav-search {
     display: flex;
-    background-color: blue;
-    width: 620px;
-    height: 35px;
+    background-color: rgb(0, 0, 0);
+    width: 700px;
+    height: 40px;
     justify-content: space-evenly;
     
 }
@@ -57,8 +58,8 @@
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
-    border-top-left-radius:  4px;
-    border-bottom-left-radius: 4px;
+    border-top-left-radius:  5px;
+    border-bottom-left-radius: 5px;
     border: none;
 }
 .search-input {
@@ -69,17 +70,79 @@
 .nav-search:hover {
     border: 3px solid orange;
 }
+.search-icon {
+    display: flex;
+    width: 45px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 181, 42);
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 /* box4 */
 
 span {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .nav-second {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-weight: 800;
 }
+/* box5 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
 /* panel */
 .panel {
     display: flex;
+    height: 40px;
+    background-color: #1b2121;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+.panel-all {
+    font-weight: 700;
+
+}
+.panel-ops p {
+    display: inline;
+    margin: 8px;
+}
+.panel-ops {
+    width: 95%;
+}
+
+/* hero section */
+
+.hero-section {
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    
+}
+
+.hero-message {
+    background-color:rgb(255, 255, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+}
+
+.hero-message i {
+    color: rgba(0, 191, 255, 0.805);
 }
